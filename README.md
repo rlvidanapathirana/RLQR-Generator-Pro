@@ -50,28 +50,4 @@ A modern, gradient-styled QR code generator — built for business cards, weddin
 
 **Lakshan Vidanapathirana**
 Portfolio: [lakshan.vercel.app](https://lakshan.vercel.app)
-Knowledge Hub: [lakshan.netlify.app](https://lakshan.netlify.app)
 
-## GitHub Pages එකට Host කරගන්නේ මෙහෙමයි
-
-1. GitHub එකේ අලුත් repository එකක් හදන්න (public) — නම, උදා: `rl-qr-generator-pro`
-2. මේ folder එකේ තියෙන `index.html` file එක repo එකට upload කරන්න (drag & drop කරලාත් පුළුවන්, GitHub web UI එකෙන්ම — "Add file" → "Upload files")
-3. Repo Settings → Pages (වම් පැත්තේ menu එකේ) → Source: **Deploy from a branch** → Branch: **main** → `/ (root)` → Save
-4. විනාඩි කිහිපයකින් `https://your-username.github.io/rl-qr-generator-pro/` කියලා live URL එකක් ලැබෙනවා
-
-### Terminal එකෙන් (git ගැන දන්නවා නම්)
-
-```bash
-git init
-git add index.html
-git commit -m "RL QR Generator Pro - initial release"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/rl-qr-generator-pro.git
-git push -u origin main
-```
-
-ඊට පස්සේ ඉහල Settings → Pages step එක කරන්න.
-
-## Local එකේ test කරගන්නේ
-
-Just double-click `index.html` — browser එකෙන් කෙලින්ම open වෙනවා, server එකක් ඕනේ නෑ.
